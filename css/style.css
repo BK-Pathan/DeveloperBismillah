@@ -282,6 +282,29 @@
 
 
 /*** Service ***/
+@media (max-width: 991px) {
+
+  /* center heading */
+  #service h1 {
+    text-align: center !important;
+  }
+
+  /* center button column */
+  #service .text-lg-end {
+    text-align: center !important;
+  }
+
+  /* center whole row spacing */
+  #service .row.g-5 {
+    justify-content: center;
+  }
+
+  /* button spacing fix */
+  #service .btn {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
 .service-item .bg-icon {
     width: 100px;
     height: 100px;
@@ -294,6 +317,33 @@
 
 
 /*** Project Portfolio ***/
+@media (max-width: 991px) {
+
+  /* container center */
+  #portfolio-flters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+  }
+
+  /* remove negative margin issue */
+  #portfolio-flters li {
+    margin: 5px 10px !important;
+    text-align: center;
+  }
+
+  /* parent column center */
+  #portfolio-flters {
+    width: 100%;
+  }
+
+  /* remove right align */
+  .text-lg-end {
+    text-align: center !important;
+  }
+}
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
