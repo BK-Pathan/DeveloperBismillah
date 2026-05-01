@@ -110,6 +110,7 @@
 
 
 /*** Header ***/
+
 #home {
     margin-bottom: 6rem;
     background: url(../img/bg-header.png) left top no-repeat;
@@ -210,6 +211,36 @@
     color: #FFFFFF;
     background: #000000;
     opacity: 1;
+}
+@media (max-width: 991px) {
+
+  /* container padding thoda clean */
+  #home .col-lg-6.py-6 {
+    padding-top: 200px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-align: center !important;
+  }
+
+  /* headings center */
+  #home h1,
+  #home h2,
+  #home h3,
+  #home .typed-text-output,
+  #home .typed-text {
+    text-align: center !important;
+  }
+
+  /* button center */
+  #home .d-flex {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* image hide */
+  #home .hero-img {
+    display: none !important;
+  }
 }
 
 
