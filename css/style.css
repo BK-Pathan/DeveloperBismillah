@@ -110,9 +110,11 @@
 
 
 /*** Header ***/
-
+/* .container{
+    height: 40vh;
+} */
 #home {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem !important;
     background: url(../img/bg-header.png) left top no-repeat;
 }
 
@@ -239,7 +241,7 @@
 
   /* image hide */
   #home .hero-img {
-    display: none !important;
+    /* display: none !important; */
   }
 }
 
@@ -298,6 +300,7 @@
   /* center heading */
   #service h1 {
     text-align: center !important;
+    font-size: 28px !important;
   }
 
   /* center button column */
