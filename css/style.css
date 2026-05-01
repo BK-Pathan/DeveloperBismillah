@@ -245,6 +245,17 @@
 
 
 /*** About ***/
+/* default (laptop + desktop) */
+.about-heading {
+  text-align: center;
+  width: 100%;
+}
+
+/* extra safety for all screens */
+#about h1 {
+  text-align: center;
+  font-weight: bold;
+}
 #about .years .display-1 {
     font-size: 10rem;
     line-height: 9rem;
